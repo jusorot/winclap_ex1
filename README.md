@@ -4,23 +4,17 @@ This project contains a function `anagrams` that returns a list of anagrams of a
 
 ## How to Run
 
-1. Activate the virtual environment:
-    ```
-    source venv/bin/activate  # On Linux/Mac
-    venv\Scripts\activate     # On Windows
-    ```
-
-2. Run the `anagrams` function:
+1. Run the `anagrams` function:
     ```
     python anagrams.py
     ```
 
-3. Enter a word when prompted to find its anagrams:
+2. Enter a word when prompted to find its anagrams:
     ```
     Enter a word to find its anagrams: <your_word>
     ```
 
-4. Run the tests:
+3. Run the tests:
     ```
     python -m unittest test_anagrams.py
     ```
