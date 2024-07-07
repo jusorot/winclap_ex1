@@ -38,9 +38,15 @@ def anagrams(word, anagrams_dict):
 
 if __name__ == "__main__":
     anagrams_dict = preprocess_words('WORD.lst')
-        
+
+    print(anagrams("train", anagrams_dict))
+    print('--')
+    print(anagrams('drive', anagrams_dict))
+    print('--')
+    print(anagrams('python', anagrams_dict))
+
     query = input("Enter a word to find its anagrams: ")
-    
+  
     result = anagrams(query, anagrams_dict)
     if result:
         print(f"Anagrams for '{query }': {result}")
